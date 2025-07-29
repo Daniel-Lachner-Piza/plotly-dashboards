@@ -81,4 +81,4 @@ test-results/
 *.orig
 
 # ODP
-.lock.
+*.~lock.Visual_Summary.odp*
