@@ -1,5 +1,5 @@
 # 1. Base Image
-FROM python:3.14.0rc1-alpine3.22
+FROM python:3.13.1-slim
 
 # 2. Metadata
 LABEL author="Daniel Lachner-Piza"
