@@ -3,7 +3,7 @@
 This repository contains a Plotly Dash application for visualizing spike occurrence rates from anonymized patient CSV data. It is designed to run on an EC2 instance for scalable deployment.
 
 [
-  ![Sleep and Spikes Dashboard](Images/Sleep_and_Spikes_Dashboard_Image.png)
+  ![Sleep and Spikes Dashboard](Images/Visual_Summary.png)
 ](http://18.216.171.133:8050/)
 
 [Dashboard Link](http://18.216.171.133:8050/)
