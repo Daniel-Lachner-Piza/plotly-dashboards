@@ -80,3 +80,5 @@ test-results/
 *.tmp
 *.orig
 
+# ODP
+.lock.
