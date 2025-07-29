@@ -8,7 +8,15 @@ and use the following command:
 To run the docker container, use:
     docker build --no-cache -t persyst-dashboards:v1 .
     docker run -it --rm -p 8050:8050 persyst-dashboards:v1
+
+Delete all stopped containers, unused images, unused networks, and unused volumes:
+    docker system prune -a --volumes
+
+Kill Process Running on Port 8050:
+    sudo lsof -i :8050
+    sudo kill -9 <PID>
 """
+
 from pathlib import Path
 import os
 import pandas as pd
